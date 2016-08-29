@@ -14,6 +14,8 @@
 		3EADEBBD1D7440060017D570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EADEBBB1D7440060017D570 /* LaunchScreen.storyboard */; };
 		3EADEBC81D7440070017D570 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADEBC71D7440070017D570 /* TestTests.swift */; };
 		3EADEBD31D7440070017D570 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADEBD21D7440070017D570 /* TestUITests.swift */; };
+		3EADEBE21D7441180017D570 /* HelloTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADEBE01D7441180017D570 /* HelloTableViewController.swift */; };
+		3EADEBE31D7441180017D570 /* HelloTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EADEBE11D7441180017D570 /* HelloTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3EADEBCE1D7440070017D570 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EADEBD21D7440070017D570 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		3EADEBD41D7440070017D570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EADEBE01D7441180017D570 /* HelloTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloTableViewController.swift; sourceTree = "<group>"; };
+		3EADEBE11D7441180017D570 /* HelloTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3EADEBB91D7440060017D570 /* Assets.xcassets */,
 				3EADEBBB1D7440060017D570 /* LaunchScreen.storyboard */,
 				3EADEBBE1D7440060017D570 /* Info.plist */,
+				3EADEBE01D7441180017D570 /* HelloTableViewController.swift */,
+				3EADEBE11D7441180017D570 /* HelloTableViewController.xib */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EADEBE31D7441180017D570 /* HelloTableViewController.xib in Resources */,
 				3EADEBBD1D7440060017D570 /* LaunchScreen.storyboard in Resources */,
 				3EADEBBA1D7440060017D570 /* Assets.xcassets in Resources */,
 				3EADEBB81D7440060017D570 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			files = (
 				3EADEBB51D7440060017D570 /* ViewController.swift in Sources */,
 				3EADEBB31D7440060017D570 /* AppDelegate.swift in Sources */,
+				3EADEBE21D7441180017D570 /* HelloTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
